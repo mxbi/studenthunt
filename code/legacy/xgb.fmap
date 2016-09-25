@@ -1,0 +1,86 @@
+0	Park_ID	q
+1	Direction_Of_Wind	q
+2	Average_Breeze_Speed	q
+3	Max_Breeze_Speed	q
+4	Min_Breeze_Speed	q
+5	Var1	q
+6	Average_Atmospheric_Pressure	q
+7	Max_Atmospheric_Pressure	q
+8	Min_Atmospheric_Pressure	q
+9	Min_Ambient_Pollution	q
+10	Max_Ambient_Pollution	q
+11	Average_Moisture_In_Park	q
+12	Max_Moisture_In_Park	q
+13	Min_Moisture_In_Park	q
+14	Location_Type	q
+15	month	q
+16	Park12	q
+17	Park13	q
+18	Park14	q
+19	Park15	q
+20	Park16	q
+21	Park17	q
+22	Park18	q
+23	Park19	q
+24	Park20	q
+25	Park21	q
+26	Park22	q
+27	Park23	q
+28	Park24	q
+29	Park25	q
+30	Park26	q
+31	Park27	q
+32	Park28	q
+33	Park29	q
+34	Park30	q
+35	Park31	q
+36	Park32	q
+37	Park33	q
+38	Park34	q
+39	Park35	q
+40	Park36	q
+41	Park37	q
+42	Park38	q
+43	Park39	q
+44	date_encode	q
+45	Direction_Of_Wind_lag2	q
+46	Direction_Of_Wind_lag1	q
+47	Average_Moisture_In_Park_lag2	q
+48	Average_Atmospheric_Pressure_lead1	q
+49	Average_Moisture_In_Park_lead2	q
+50	Average_Breeze_Speed_lag1	q
+51	Average_Moisture_In_Park_lag1	q
+52	Var1_lead1	q
+53	Average_Atmospheric_Pressure_lag1	q
+54	Average_Breeze_Speed_lag2	q
+55	Average_Moisture_In_Park_lead1	q
+56	Average_Breeze_Speed_lead2	q
+57	Average_Atmospheric_Pressure_lag2	q
+58	Average_Atmospheric_Pressure_lead2	q
+59	Average_Breeze_Speed_lead1	q
+60	Direction_Of_Wind_lead2	q
+61	Var1_lag1	q
+62	Var1_lag2	q
+63	Var1_lead2	q
+64	Direction_Of_Wind_lead1	q
+65	Max TemperatureC	q
+66	Mean TemperatureC	q
+67	Min TemperatureC	q
+68	Dew PointC	q
+69	MeanDew PointC	q
+70	Min DewpointC	q
+71	Max Humidity	q
+72	 Mean Humidity	q
+73	 Min Humidity	q
+74	 Max Sea Level PressurehPa	q
+75	 Mean Sea Level PressurehPa	q
+76	 Min Sea Level PressurehPa	q
+77	 Max VisibilityKm	q
+78	 Mean VisibilityKm	q
+79	 Min VisibilitykM	q
+80	 Max Wind SpeedKm/h	q
+81	 Mean Wind SpeedKm/h	q
+82	 Max Gust SpeedKm/h	q
+83	Precipitationmm	q
+84	 CloudCover	q
+85	WindDirDegrees	q
