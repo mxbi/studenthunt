@@ -98,8 +98,7 @@ drop_cols = ['Date', 'year', 'date_dm', 'dateidix']
 
 print('Train size', df_train.shape, 'Test size', df_test.shape)
 
-validation = True
-
+validation = False
 if validation:
     y_train = df_train.loc[df_train.year <= 1998]['Footfall']
     x_train = df_train.loc[df_train.year <= 1998].drop(['ID', 'Footfall'] + drop_cols, 1)
@@ -113,6 +112,7 @@ x_valid = df_train.loc[df_train.year > 1998].drop(['ID', 'Footfall'] + drop_cols
 
 id_test = df_test['ID']
 x_test = df_test.drop(['ID'] + drop_cols, 1)
+
 
 print('Train size', x_train.shape, 'Valid size', x_test.shape)
 print('Columns:', x_train.columns, '\n')
@@ -136,7 +136,7 @@ watchlist = [(d_train, 'train'), (d_valid, 'valid')]
 
 # Train!
 # Third value is number of rounds (n_estimators), early_stopping_rounds stops training when it hasn't improved for that number of rounds
-clf = xgb.train(params, d_train, 20000, watchlist, early_stopping_rounds=500, verbose_eval=25)
+clf = xgb.train(params, d_train, 7200, watchlist, early_stopping_rounds=500, verbose_eval=25)
 
 # Predict
 d_test = xgb.DMatrix(x_test)
@@ -147,4 +147,4 @@ print(get_importance(clf, list(x_train.columns.values)))
 sub = pd.DataFrame()
 sub['ID'] = id_test
 sub['Footfall'] = p_test
-sub.to_csv('simple_xgb_submission_1992.csv', index=False)
+sub.to_csv('simple_xgb_submission_full.csv', index=False)

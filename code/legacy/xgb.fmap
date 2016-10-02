@@ -63,24 +63,7 @@
 62	Var1_lag2	q
 63	Var1_lead2	q
 64	Direction_Of_Wind_lead1	q
-65	Max TemperatureC	q
-66	Mean TemperatureC	q
-67	Min TemperatureC	q
-68	Dew PointC	q
-69	MeanDew PointC	q
-70	Min DewpointC	q
-71	Max Humidity	q
-72	 Mean Humidity	q
-73	 Min Humidity	q
-74	 Max Sea Level PressurehPa	q
-75	 Mean Sea Level PressurehPa	q
-76	 Min Sea Level PressurehPa	q
-77	 Max VisibilityKm	q
-78	 Mean VisibilityKm	q
-79	 Min VisibilitykM	q
-80	 Max Wind SpeedKm/h	q
-81	 Mean Wind SpeedKm/h	q
-82	 Max Gust SpeedKm/h	q
-83	Precipitationmm	q
-84	 CloudCover	q
-85	WindDirDegrees	q
+65	mois_change_1day	q
+66	breeze_change_1day	q
+67	pressure_change_1day	q
+68	dow_change_1day	q
